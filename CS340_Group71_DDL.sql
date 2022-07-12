@@ -209,6 +209,6 @@ INSERT INTO `Customers` (`firstName`, `lastName`, `custEmail`)
 
 INSERT INTO `Lessons` (`customerID`, `instructorID`, `lessonType`, `lessonDate`, `request`)
     VALUES
-        (1, 1, 'ski0', '2022-07-10', false),
-        (2, 1, 'ski0', '2022-07-10', false),
-        (3, 1, 'ski3', '2022-07-10', true);
+        (1, 1, 'group', '2022-07-10', false),
+        (2, 1, 'group', '2022-07-10', false),
+        (3, 1, 'private', '2022-07-10', true);
